@@ -62,3 +62,13 @@ streamlit run Finsight.py
 ```
 
 The application will open in your default browser. You can now upload a PDF file and interact with the financial assistant.
+
+## PDF Compatibility
+
+Finsight-AI uses a three-layer fallback mechanism to extract text from PDFs:
+
+- PyPDF2 (default)
+- pdfplumber (if available)
+- pdfminer (if available)
+
+Encrypted or non-standard PDFs may not be readable.
