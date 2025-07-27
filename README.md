@@ -48,13 +48,17 @@ pip install -r requirements.txt
 
 Create a .env file in the project directory and add your OpenAI API key:
 
-`OPENAI_API_KEY=your_openai_api_key`
+```bash
+OPENAI_API_KEY=your_openai_api_key
+```
 
 Please make sure the path to the .env file is correctly referenced in the code, if necessary.
 
 ## 3. Run the Application
 Start the Streamlit app by running the following command:
 
-`streamlit run Finsight.py`
+```bash
+streamlit run Finsight.py
+```
 
 The application will open in your default browser. You can now upload a PDF file and interact with the financial assistant.
