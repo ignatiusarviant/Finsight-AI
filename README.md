@@ -72,3 +72,9 @@ Finsight-AI uses a three-layer fallback mechanism to extract text from PDFs:
 - pdfminer (if available)
 
 Encrypted or non-standard PDFs may not be readable.
+
+## Example Questions
+
+- What is the company's total revenue?
+- How much did net income increase compared to last year?
+- What is the debt-to-equity ratio?
