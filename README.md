@@ -78,3 +78,6 @@ Encrypted or non-standard PDFs may not be readable.
 - What is the company's total revenue?
 - How much did net income increase compared to last year?
 - What is the debt-to-equity ratio?
+
+## License
+This project is intended for **educational** and **portfolio** purposes.
