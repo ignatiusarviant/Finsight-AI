@@ -21,6 +21,22 @@ my model is only to answer the financial-related questions.
 - OpenAI API
 - pdfplumber / PyPDF2
 
+## Why Not Azure?
+Although I have tested and successfully deployed this chatbot on Azure App Service, I experienced performance constraints due to:
+
+- Memory limitations (1.75 GB) in Basic Plan
+- CPU throttling and temporary freezing under heavy loads (LLM + document parsing)
+
+Upgrading to a higher tier like Standard S1 or Premium P1 would solve this, but for now, I chose Streamlit Cloud as a practical solution due to personal budget limitations.
+
+## Azure-Readiness
+This project is fully Azure-compatible:
+
+- Includes requirements.txt and startup commands
+- Tested on Linux App Service (Python 3.11)
+- Logs and deployment traces are available
+- Environment variables like OPENAI_API_KEY are read securely via Azure Configuration
+
 ## Usage
 
 1. Upload your PDF financial report
