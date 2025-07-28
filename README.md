@@ -24,7 +24,7 @@ my model is only to answer the financial-related questions.
 ## Why Not Azure?
 Although I have tested and successfully deployed this chatbot on Azure App Service, I experienced performance constraints due to:
 
-![Azure Display](Azure%20Display%.png)
+![Azure Display](Azure%20Display.png)
 
 - Memory limitations (1.75 GB) in Basic Plan
 - CPU throttling and temporary freezing under heavy loads (LLM + document parsing)
